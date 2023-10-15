@@ -1,0 +1,177 @@
+.body {
+    padding: 116px 0 85px;
+}
+
+.body a:hover {
+    color: #e289d6 !important;
+}
+
+.body .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body .aside {
+    width: 227px;
+    height: 500px;
+    ;
+}
+
+.result {
+    width: 100%;
+    height: 0;
+    margin: 0;
+    background: url(../images/paihang.jpg);
+    background-size: cover;
+    animation: result 2s forwards;
+}
+
+@keyframes result {
+    100% {
+        height: 500px;
+    }
+}
+
+.body .main {
+    width: 999px;
+}
+
+.overview {
+    display: flex;
+    padding: 20px 0;
+    background-color: #fff;
+    height: 132px;
+    margin-bottom: 18px;
+}
+
+.overview div {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.overview a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+
+.overview div:first-child {
+    border-right: 1px solid #f1f1f1;
+}
+
+.overview span {
+    color: #e05e30;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.pannel {
+    background-color: #fff;
+    padding: 28px 19px;
+    margin-bottom: 20px;
+}
+
+.pannel-title {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+}
+
+.pannel-title h4 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.pannel-title a {
+    color: #999;
+    font-family: simsun;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+.content li {
+    display: flex;
+    border: 1px solid #f4f4f4;
+    height: 137px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.content li:last-child {
+    margin-bottom: 0;
+}
+
+.content .goods {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.content .goods .pic {
+    width: 80px;
+    height: 107px;
+    margin: 0 5px 0 12px;
+}
+
+.content .goods .pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .goods .txt h5 {
+    width: 270px;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.content .goods .txt p {
+    color: #999;
+}
+
+.content .state {
+    width: 200px;
+    text-align: center;
+    padding-top: 60px;
+    color: #e05e30;
+}
+
+.content .price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.content .price p:nth-child(1) {
+    color: #9a2e1f;
+}
+
+.content .pay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+}
+
+.content .pay a:nth-child(1) {
+    width: 100px;
+    height: 30px;
+    background-color: pink;
+    text-align: center;
+    line-height: 30px;
+    color: #fff !important;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}

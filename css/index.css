@@ -1,0 +1,72 @@
+.swiper {
+    width: 1070px;
+    height: 210px;
+    margin-top: 88px;
+}
+
+.swiper img {
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 614px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.main .left {
+    padding-left: 5px;
+    width: 234px;
+    height: 614px;
+}
+
+.main .left a {
+    text-align: center;
+    font-size: 20px;
+}
+
+.main .left span {
+    font-size: 20px;
+    color: red;
+}
+
+.main .right {
+    width: 978px;
+    height: 614px;
+}
+
+.main .right ul {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    height: 614px;
+}
+
+.main .right li {
+    width: 200px;
+    height: 300px;
+    list-style: none;
+}
+
+.main .right li img {
+    width: 160px;
+    height: 200px;
+    transition: all .5s;
+}
+
+.main .right li:hover img {
+    transform: scale(1.1);
+}
+
+.main .right p {
+    width: 170px;
+    margin-top: 8px;
+}
+
+.main .right p span {
+    color: red;
+}
